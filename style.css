@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #080808;
+  background: hsl(155, 76%, 53%);
   color: #fff;
 }
 #header {
