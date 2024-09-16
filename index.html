@@ -15,16 +15,20 @@
     <div id="header">
       <div class="container">
         <nav>
-          <img src="images/Nokwanda logo.png" class="logo" />
+          <img
+            src="images/Nokwanda_logo.png"
+            class="logo"
+            alt="Nokwanda logo"
+          />
           <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#portfolio">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <i class="fas fa-times" onclick="closemenu()"></i>
+            <li><i class="fas fa-times" onclick="closemenu()"></i></li>
           </ul>
-          <i class="fas fa-bars" onclick="openmenu()"></i>
+          <li><i class="fas fa-bars" onclick="openmenu()"></i></li>
         </nav>
         <div class="header-text">
           <p>Web Developer</p>
@@ -34,12 +38,12 @@
         </div>
       </div>
     </div>
-    <!-- -----------about---------- -->
+    <!-- about section -->
     <div id="about">
       <div class="container">
         <div class="row">
           <div class="about-col-1">
-            <img src="images/Nokwanda user2.png" />
+            <img src="images/Nokwanda_user2.png" alt="Nokwanda user image" />
           </div>
           <div class="about-col-2">
             <h1 class="sub-title">About Me</h1>
@@ -83,10 +87,11 @@
             </div>
             <div class="tab-contents" id="education">
               <ul>
+                <li><span>2024</span><br />Web Develpoment at Umuzi</li>
                 <li>
-                  <span>2024</span><br />Web Develpoment at Umuzi
+                  <span>2023</span><br />Systems Development from Boston City
+                  College.
                 </li>
-                <li><span>2023</span><br />Systems Development from Boston City College.</li>
                 <li><span>2015</span><br />Rietondale High School.</li>
               </ul>
             </div>
@@ -94,7 +99,7 @@
         </div>
       </div>
     </div>
-    <!-- ---------services---------------- -->
+    <!-- services section -->
     <div id="services">
       <div class="container">
         <h1 class="sub-title">My Services</h1>
@@ -102,59 +107,60 @@
           <div>
             <i class="fas fa-code"></i>
             <h2>Web Design</h2>
-            <p>I design and maintain websites for clients.
-            </p>
+            <p>I design and maintain websites for clients.</p>
           </div>
           <div>
             <i class="fas fa-crop-alt"></i>
             <h2>UI/UX Design</h2>
-            <p>I use multiple design tools to create quality user experiences.
+            <p>
+              I use multiple design tools to create quality user experiences.
             </p>
           </div>
           <div>
             <i class="fab fa-app-store"></i>
             <h2>App Design</h2>
-            <p>I work on designing and maintaining apps for clients and businesses.
+            <p>
+              I work on designing and maintaining apps for clients and
+              businesses.
             </p>
-
           </div>
         </div>
       </div>
     </div>
-    <!-- ----------portfolio------------ -->
+    <!-- portfolio section -->
     <div id="portfolio">
       <div class="container">
         <h1 class="sub-title">My Projects</h1>
         <div class="work-list">
           <div class="work">
-            <img src="images/work-1.png" />
+            <img src="images/work-1.png" alt="images/work-1.png" />
             <div class="layer">
               <h3>Social Media App</h3>
               <p>
-                This app is coming soon. The app connects you to the talented people around the world.
-                Download it from play store.
+                This app is coming soon. The app connects you to the talented
+                people around the world. Download it from play store.
               </p>
               <a href="#"><i class="fas fa-external-link-alt"></i></a>
             </div>
           </div>
           <div class="work">
-            <img src="images/work-2.png" />
+            <img src="images/work-2.png" alt="images/work-2.png/>
             <div class="layer">
               <h3>Music App</h3>
               <p>
-                This app is coming soon. The app connects you to the talented people around the world.
-                Download it from play store.
+                This app is coming soon. The app connects you to the talented
+                people around the world. Download it from play store.
               </p>
               <a href="#"><i class="fas fa-external-link-alt"></i></a>
             </div>
           </div>
           <div class="work">
-            <img src="images/work-3.png" />
+            <img src="images/work-3.png" alt="images/work-3.png />
             <div class="layer">
               <h3>Online Shopping App</h3>
               <p>
-                This app is coming soon. The app connects you to the talented people around the world.
-                Download it from play store.
+                This app is coming soon. The app connects you to the talented
+                people around the world. Download it from play store.
               </p>
               <a href="#"><i class="fas fa-external-link-alt"></i></a>
             </div>
@@ -163,42 +169,47 @@
         <a href="#" class="btn">Main page</a>
       </div>
     </div>
-    <!-- ----------contact------------- -->
+    <!-- contact section -->
     <div id="contact">
       <div class="container">
         <div class="row">
           <div class="contact-left">
             <h1 class="sub-title">Contact Me</h1>
-            </div>
-            <div class="social-icons">
-              <a href="https://github.com/nokwandamadiba" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-              <a href="https://www.linkedin.com/in/nokwanda-jennifer-madiba-542005315" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
           </div>
-            <a href="images/RESUME (1).pdf" download class="btn btn2">Download CV</a>
+          <div class="social-icons">
+            <a href="https://github.com/nokwandamadiba" target="_blank"
+              ><ion-icon name="logo-github"></ion-icon
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/nokwanda-jennifer-madiba-542005315"
+              target="_blank"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
           </div>
-          <div class="contact-right">
-            <form name="submit-to-google-sheet">
-              <input type="text" name="Name" placeholder="Your Name" required />
-              <input
-                type="email"
-                name="Email"
-                placeholder="Your Email"
-                required
-              />
-              <textarea
-                name="Message"
-                rows="6"
-                placeholder="Your Message"
-              ></textarea>
-              <button type="submit" class="btn btn2">Submit</button>
-            </form>
-            <span id="msg"></span>
-          </div>
+          <a href="images/RESUME.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="Email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="Message"
+              rows="6"
+              placeholder="Your Message"
+            ></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
         </div>
       </div>
-      <div class="copyright">
-        <p>Copyright © Nokwanda Madiba <i class="fas fa-heart"></i></p>
-      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © Nokwanda Madiba <i class="fas fa-heart"></i></p>
     </div>
 
     <script>
@@ -245,6 +256,9 @@
           .catch((error) => console.error("Error!", error.message));
       });
     </script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
   </body>
 </html>
